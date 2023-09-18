@@ -1,0 +1,59 @@
+body {
+    background-image: url('./curr.jpg'); /* Add background image */
+    background-size: cover; /* Set background image size to cover the entire page */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    margin: 10px; /* Remove default margin */
+    padding: 10px; /* Remove default padding */
+}
+/* Center the header and button with an attractive border and background color */
+#fetchButton {
+    text-align: center;
+    padding: 5px 10em; /* Reduce padding to make them smaller */
+    border: 2px solid #000; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #000; /* Background color */
+    color: white; /* Text color */
+    display: block;
+    margin: 8px auto;
+    font-size: 14px; /* Reduce font size */
+}
+h1 {
+    text-align: center;
+    padding: 5px; /* Reduce padding to make them smaller */
+    border: 2px solid #000; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #000; /* Background color */
+    color: white; /* Text color */
+    display: block;
+    margin: 8px auto;
+    font-size: 14px; /* Reduce font size */
+}
+/* Apply basic styling to the exchange rate table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Apply more attractive styling without animations */
+.exchange-rate-row td {
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+}
+
+.exchange-rate-row:hover td {
+    background-color: #f0e68c; /* Change color on hover */
+}
